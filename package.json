@@ -1,0 +1,24 @@
+{
+  "name": "llm-analysis-quiz",
+  "version": "1.0.0",
+  "description": "Server for LLM Analysis Quiz project",
+  "type": "module",
+  "main": "server.js",
+  
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "pdf-parse": "^1.1.1",
+    "puppeteer": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Aman Kumar Verma",
+  "license": "MIT"
+}
